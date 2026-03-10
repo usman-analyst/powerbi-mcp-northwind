@@ -1,0 +1,43 @@
+{
+  "mcpServers": {
+    "powerbi-modeling": {
+      "command": "C:\\Users\\YOUR_USERNAME\\.vscode\\extensions\\ms-analysisservices.powerbi-modeling-mcp-VERSION\\server\\PowerBIModelingMCP.exe",
+      "args": []
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────
+// HOW TO FIND YOUR ACTUAL PATH
+// ─────────────────────────────────────────────────────────
+// 1. Open File Explorer
+// 2. Paste this in the address bar and press Enter:
+//        %USERPROFILE%\.vscode\extensions
+// 3. Find the folder: ms-analysisservices.powerbi-modeling-mcp-X.X.X
+// 4. Open it → open "server" subfolder
+// 5. Copy the full path to PowerBIModelingMCP.exe
+//
+// ─────────────────────────────────────────────────────────
+// CRITICAL: DOUBLE ALL BACKSLASHES IN JSON
+// ─────────────────────────────────────────────────────────
+// WRONG:  C:\Users\john\.vscode\extensions\...
+// RIGHT:  C:\\Users\\john\\.vscode\\extensions\\...
+//
+// ─────────────────────────────────────────────────────────
+// WHERE TO PUT THIS FILE
+// ─────────────────────────────────────────────────────────
+// In Claude Desktop: File → Settings → Developer → Edit Config
+// This opens: %APPDATA%\Claude\claude_desktop_config.json
+// Replace the entire contents with your edited version above.
+//
+// ─────────────────────────────────────────────────────────
+// EXAMPLE (what a real path looks like)
+// ─────────────────────────────────────────────────────────
+// {
+//   "mcpServers": {
+//     "powerbi-modeling": {
+//       "command": "C:\\Users\\raja\\.vscode\\extensions\\ms-analysisservices.powerbi-modeling-mcp-1.0.12\\server\\PowerBIModelingMCP.exe",
+//       "args": []
+//     }
+//   }
+// }
