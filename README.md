@@ -316,7 +316,7 @@ powerbi-mcp-northwind/
 
 ## 📚 References
 
-- [Power BI Modeling MCP — Microsoft](https://learn.microsoft.com/en-us/power-bi)
+- [Power BI Modeling MCP — Microsoft](https://learn.microsoft.com/en-us/power-bi/developer/mcp/mcp-servers-overview)
 - [Model Context Protocol — Anthropic](https://www.anthropic.com/news/model-context-protocol)
 - [Northwind Traders Dataset — Kaggle](https://www.kaggle.com/datasets/jeetahirwar/northwind-traders)
 
